@@ -1,0 +1,284 @@
+[
+{
+    "id" : "triangleEquilateral",
+    "name" : "Equilateral Triangle",
+    "baseImage" : "https://www.math-only-math.com/images/three-angles-of-an-equilateral-triangle.png",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "x",
+            "value" : 2
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "\\frac{\\sqrt{3}}{4}{{x}}^2",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "3{{x}}",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "triangleIsoceles",
+    "name" : "IsoscelesTriangle",
+    "baseImage" : "https://ds055uzetaobb.cloudfront.net/brioche/uploads/bBTXG05QV2-properties-of-isosceles-trianglesd.svg?width=2000",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }, 
+        {
+            "name" : "b",
+            "value" : 0
+        }, 
+        {
+            "name" : "h",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "\\frac{{hb}}{2}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "2a+b",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "triangleScalene",
+    "name" : "Scalene Triangle",
+    "baseImage" : "https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/scalene-triangle/scalene-triangle-image002.gif",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }, 
+        {
+            "name" : "b",
+            "value" : 0
+        }, 
+        {
+            "name" : "c",
+            "value" : 0
+        }, 
+        {
+            "name" : "h",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "\\frac{{hb}}{2}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "a+b+c",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "triangleRightAngled",
+    "name" : "Right Angled Triangle",
+    "baseImage" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Triangle.Right.svg/1280px-Triangle.Right.svg.png",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }, 
+        {
+            "name" : "b",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "\\frac{{ab}}{2}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "a+b+\\sqrt{a^{\\mleft.2\\mright.}+b^{\\mleft.2\\mright.}}",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "square",
+    "name" : "Square",
+    "baseImage" : "https://upload.wikimedia.org/wikipedia/commons/d/dd/Square_-_black_simple.svg",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "a^{\\mleft.2\\mright.}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "4a",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "rectangle",
+    "name" : "Rectangle",
+    "baseImage" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rectangle_Geometry_Vector.svg/1280px-Rectangle_Geometry_Vector.svg.png",
+    "type" : "2D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }, 
+        {
+            "name" : "b",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Area",
+            "expression" : "ab",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "2(a+b)",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "cube",
+    "name" : "Cube",
+    "baseImage" : "https://i.stack.imgur.com/Hm4DD.jpg",
+    "type" : "3D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "a",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Suraface Area",
+            "expression" : "6\\times a^{\\mleft.2\\mright.}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "12a",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Volume",
+            "expression" : "a^{\\mleft.3\\mright.}",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "cuboid",
+    "name" : "Cuboid",
+    "baseImage" : "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cuboid.png",
+    "type" : "3D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "l",
+            "value" : 0
+        }, 
+        {
+            "name" : "w",
+            "value" : 0
+        }, 
+        {
+            "name" : "h",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Suraface Area",
+            "expression" : "2lw+2wh+2hl",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "4left(l+w+h)\right?",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Volume",
+            "expression" : "lwh",
+            "computedValue" : 0
+        }
+    ]
+},
+{
+    "id" : "cylinder",
+    "name" : "Cylinder",
+    "baseImage" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Circular_cylinder_rh.svg/800px-Circular_cylinder_rh.svg.png",
+    "type" : "3D",
+    "description" : "this is a test description",
+    "variable" : [ 
+        {
+            "name" : "r",
+            "value" : 0
+        }, 
+        {
+            "name" : "h",
+            "value" : 0
+        }
+    ],
+    "formulas" : [ 
+        {
+            "name" : "Suraface Area",
+            "expression" : "2\\pi rh+{2\\pi r}^{\\mleft.2\\mright.}",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Perimeter",
+            "expression" : "2\\pi rh",
+            "computedValue" : 0
+        }, 
+        {
+            "name" : "Volume",
+            "expression" : "\\pi hr^{\\mleft.2\\mright.}",
+            "computedValue" : 0
+        }
+    ]
+}
+
+
+]
